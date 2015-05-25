@@ -1,0 +1,83 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300italic,700);
+@import url(http://fonts.googleapis.com/css?family=Cabin:400,700);
+@import url(http://fonts.googleapis.com/css?family=Cabin+Sketch:400,700);
+@import url(http://fonts.googleapis.com/css?family=Londrina+Sketch:400,700);
+@import url(http://fonts.googleapis.com/css?family=Special+Elite:400,700);
+
+/* Disable background 4px border around images */
+.reveal section img {
+  border: none;
+  background: none;
+}
+
+/* Blow image up to full screen size */
+.reveal section img
+{
+  height: auto;
+  width: 100%;
+  max-width: 80%;
+  max-height: 80%;
+  margin: 2%;
+}
+
+/* Blow iframe up to full screen size */
+.reveal iframe
+{
+  height: 20em;
+  width: 100%;
+  margin: 2%;
+}
+
+body,
+.reveal {
+  font-family: "Cabin Sketch", sans-serif;
+  font-weight: normal;
+}
+
+.reveal h1 {
+  font-family: "Londrina Sketch", sans-serif;
+  font-size: 6em; 
+}
+
+.reveal h2 {
+  font-family: "Londrina Sketch", sans-serif;
+  font-size: 4em;
+}
+
+.reveal h3 {
+  font-family: "Londrina Sketch", sans-serif;
+  font-size: 1.5em;
+}
+
+.reveal h1,
+.reveal h2,
+.reveal h3,
+.reveal h4,
+.reveal h5,
+.reveal h6,
+.reveal a {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+/* Override the default uppercase text-transform
+   for h2-h6 (but retain for h1) */
+.reveal h2,
+.reveal h3,
+.reveal h4,
+.reveal h5,
+.reveal h6 {
+}
+
+.reveal .stamp {
+    position: absolute;
+    color: red !important;
+    font-size: 6em !important;
+    font-family: "Special Elite" !important;
+    transform: rotate(-45deg);
+    position:absolute;
+    left:50%;
+    top:50%;
+    margin-left:-20vw;
+    margin-top:-10vh;
+}

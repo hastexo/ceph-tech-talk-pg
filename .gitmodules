@@ -1,0 +1,9 @@
+[submodule "reveal.js"]
+	path = reveal.js
+	url = git://github.com/hakimel/reveal.js
+[submodule "morris.js"]
+	path = morris.js
+	url = https://github.com/morrisjs/morris.js
+[submodule "jquery-csv"]
+	path = jquery-csv
+	url = https://github.com/fghaas/jquery-csv/
