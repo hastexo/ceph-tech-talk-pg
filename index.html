@@ -38,6 +38,12 @@
 		 data-separator-vertical="^\n\n"
 		 data-separator-notes="^Note:">
 	</section>
+	<section id="commands"
+		 data-markdown="markdown/commands.md"
+		 data-separator="^\n\n\n"
+		 data-separator-vertical="^\n\n"
+		 data-separator-notes="^Note:">
+	</section>
       </div>
     </div>
 
@@ -48,12 +54,12 @@
 // Full list of configuration options available here:
 // https://github.com/hakimel/reveal.js#configuration
 Reveal.initialize({
-    controls: true,
-    progress: true,
+    controls: false,
+    progress: false,
     history: true,
     center: true,
 
-    mouseWheel: true,
+    mouseWheel: false,
 
     theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
     transition: Reveal.getQueryHash().transition || 'fade', // default/cube/page/concave/zoom/linear/fade/none
