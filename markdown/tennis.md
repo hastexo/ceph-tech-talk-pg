@@ -42,6 +42,10 @@ And apply a simple
 ## algorithm
 
 
+### Modulo
+# FTW!
+
+
 ## `71 % 5 = 1` <!-- .element class="fragment" -->
 ## `130 % 5 = 0`
 ## `213 % 5 = 3` <!-- .element class="fragment" -->
@@ -130,16 +134,16 @@ to capacity change.
 <!-- .slide: data-background-image="images/ceph-logo.svg" data-background-size="contain" -->
 ### Tennis balls
 ## ==
-### RADOS objects
+## RADOS objects
 
 
 <!-- .slide: data-background-image="images/ceph-logo.svg" data-background-size="contain" -->
 ### Buckets
 ## ==
-### Placement Groups
+## Placement Groups
 
 
 <!-- .slide: data-background-image="images/ceph-logo.svg" data-background-size="contain" -->
 ### Students
 ## ==
-### OSDs
+## OSDs

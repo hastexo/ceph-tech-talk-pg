@@ -1,3 +1,4 @@
+Ceph
 ## Placement Groups
 Inside and Out
 
@@ -8,7 +9,10 @@ Let's talk about
 ## data placement
 
 
-Conventional lookup
+### Conventional
+lookup in
+### distributed
+storage systems
 
 
 Talk to a
