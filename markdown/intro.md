@@ -8,10 +8,16 @@ Let's talk about
 ## data placement
 
 
-Conventional placement
+Conventional lookup
 
 
-Conventional placement with central metadata lookup:
+Talk to a
+### central lookup service
+then talk to
+### storage servers
+
+
+Conventional placement with central lookup:
 ## scalability?
 ## Nope. <!-- .element class="fragment stamp" -->
 

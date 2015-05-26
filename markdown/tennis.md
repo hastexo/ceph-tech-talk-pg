@@ -30,7 +30,7 @@ objects.
 
 
 I want to distribute tennis balls
-## reproducibly
+### reproducibly
 
 
 So I
@@ -39,7 +39,7 @@ all the tennis balls.
 
 
 And apply a simple
-# algorithm
+## algorithm
 
 
 ## `71 % 5 = 1` <!-- .element class="fragment" -->
@@ -123,5 +123,5 @@ At the end, everyone has
 
 
 And suddenly, migration is
-## proportional
+### proportional
 to capacity change.
