@@ -1,6 +1,6 @@
-@import url(http://fonts.googleapis.com/css?family=Cabin:400,700);
-@import url(http://fonts.googleapis.com/css?family=Special+Elite:400,700);
-@import url(http://fonts.googleapis.com/css?family=Gloria+Hallelujah:400,700);
+@import url(//fonts.googleapis.com/css?family=Cabin:400,700);
+@import url(//fonts.googleapis.com/css?family=Special+Elite:400,700);
+@import url(//fonts.googleapis.com/css?family=Shadows+Into+Light:400,700);
 
 /* Disable background 4px border around images */
 .reveal section img {
@@ -28,7 +28,7 @@
 
 body,
 .reveal {
-  font-family: "Gloria Hallelujah", sans-serif;
+  font-family: "Shadows Into Light", sans-serif;
   font-weight: normal;
 }
 
@@ -76,6 +76,7 @@ body,
     font-family: "Special Elite" !important;
     color: black !important;
     text-shadow: none;
+    text-transform: none;
 }
 
 .reveal .stamp {
