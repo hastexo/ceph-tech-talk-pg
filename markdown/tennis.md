@@ -82,6 +82,14 @@ has this
 ## problem
 
 
+Just about every
+### contemporary
+distributed storage system
+
+solves it
+### the same way.
+
+
 So what do we do?
 
 
@@ -115,6 +123,8 @@ We make the list available to
 
 If Frankie walks on, we move only
 ## buckets
+and update the
+## list
 
 
 Everyone just gives up
@@ -138,6 +148,12 @@ to capacity change.
 
 
 <!-- .slide: data-background-image="images/ceph-logo.svg" data-background-size="contain" -->
+### Numerical IDs
+## ==
+## Object hashes
+
+
+<!-- .slide: data-background-image="images/ceph-logo.svg" data-background-size="contain" -->
 ### Buckets
 ## ==
 ## Placement Groups
@@ -147,3 +163,26 @@ to capacity change.
 ### Students
 ## ==
 ## OSDs
+
+
+<!-- .slide: data-background-image="images/ceph-logo.svg" data-background-size="contain" -->
+### List
+## ==
+## OSD Map
+
+
+The map changes
+# only
+when the storage topology changes
+
+
+And is
+# lazily
+propagated throughout the system
+
+
+This is way more
+### effective
+### efficient
+### scaleable
+than central data lookups.
